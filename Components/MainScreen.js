@@ -19,10 +19,13 @@ import LikesTab from './AppTabNavigator/LikesTab';
 import ProfileTab from './AppTabNavigator/ProfileTab';
 import SearchTab from './AppTabNavigator/SearchTab';
 export default class MainScreen extends React.Component {
-    static navigationOptions = {
+    /*static navigationOptions = {
         title: 'Instagram',
         headerLeft: <Icon name="ios-camera-outline" style={{ paddingLeft: 10 }} />,
         headerRight: <Icon name="ios-send-outline" style={{ paddingRight: 10 }} />
+    };*/
+    static navigationOptions = {
+    header:null    
     };
     render() {
 
